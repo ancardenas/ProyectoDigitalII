@@ -1,0 +1,96 @@
+# Reading pref.tcl
+# do servo_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria\ Electronica/Componente\ Teorico-Practico/Digital\ II/Laboratorio/ServoMotor4Nov {C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/ServoMotor4Nov/servo.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:10 on Nov 04,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/ServoMotor4Nov" C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/ServoMotor4Nov/servo.v 
+# -- Compiling module servo
+# 
+# Top level modules:
+# 	servo
+# End time: 20:27:10 on Nov 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria\ Electronica/Componente\ Teorico-Practico/Digital\ II/Laboratorio/ServoMotor4Nov {C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/ServoMotor4Nov/divisorfrec.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:10 on Nov 04,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/ServoMotor4Nov" C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/ServoMotor4Nov/divisorfrec.v 
+# -- Compiling module divisorfrec
+# 
+# Top level modules:
+# 	divisorfrec
+# End time: 20:27:10 on Nov 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria\ Electronica/Componente\ Teorico-Practico/Digital\ II/Laboratorio/ServoMotor4Nov {C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/ServoMotor4Nov/divisorfrecgen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:11 on Nov 04,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/ServoMotor4Nov" C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/ServoMotor4Nov/divisorfrecgen.v 
+# -- Compiling module divisorfrecgen
+# 
+# Top level modules:
+# 	divisorfrecgen
+# End time: 20:27:11 on Nov 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria\ Electronica/Componente\ Teorico-Practico/Digital\ II/Laboratorio/ServoMotor4Nov {C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/ServoMotor4Nov/generadorpwm.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:11 on Nov 04,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/ServoMotor4Nov" C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/ServoMotor4Nov/generadorpwm.v 
+# -- Compiling module generadorpmw
+# 
+# Top level modules:
+# 	generadorpmw
+# End time: 20:27:11 on Nov 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria\ Electronica/Componente\ Teorico-Practico/Digital\ II/Laboratorio/ServoMotor4Nov {C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/ServoMotor4Nov/divisorfrec1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:11 on Nov 04,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/ServoMotor4Nov" C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/ServoMotor4Nov/divisorfrec1.v 
+# -- Compiling module divisorfrec1
+# 
+# Top level modules:
+# 	divisorfrec1
+# End time: 20:27:12 on Nov 04,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria\ Electronica/Componente\ Teorico-Practico/Digital\ II/Laboratorio/ServoMotor4Nov {C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/ServoMotor4Nov/servo_TB.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:12 on Nov 04,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/ServoMotor4Nov" C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/ServoMotor4Nov/servo_TB.v 
+# -- Compiling module servo_TB
+# 
+# Top level modules:
+# 	servo_TB
+# End time: 20:27:12 on Nov 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  servo_TB
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" servo_TB 
+# Start time: 20:27:12 on Nov 04,2020
+# Loading work.servo_TB
+# Loading work.servo
+# Loading work.divisorfrec
+# Loading work.divisorfrec1
+# Loading work.divisorfrecgen
+# Loading work.generadorpmw
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Error: (vsim-PLI-3536) $dumpvars() : The level argument (-1) must not be negative.    : C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/ServoMotor4Nov/servo_TB.v(45)
+#    Time: 0 ps  Iteration: 0  Instance: /servo_TB
+# ** Note: $finish    : C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/ServoMotor4Nov/servo_TB.v(46)
+#    Time: 50 ms  Iteration: 0  Instance: /servo_TB
+# 1
+# Break in NamedBeginStat TEST_CASE at C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/ServoMotor4Nov/servo_TB.v line 46

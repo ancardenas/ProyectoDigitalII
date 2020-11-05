@@ -1,0 +1,98 @@
+# Reading pref.tcl
+# do ultrasonido_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria\ Electronica/Componente\ Teorico-Practico/Digital\ II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido {C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/contador.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:04 on Nov 04,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido" C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/contador.v 
+# -- Compiling module contador
+# 
+# Top level modules:
+# 	contador
+# End time: 20:02:04 on Nov 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria\ Electronica/Componente\ Teorico-Practico/Digital\ II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido {C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/genpulsos.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:05 on Nov 04,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido" C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/genpulsos.v 
+# -- Compiling module genpulsos
+# 
+# Top level modules:
+# 	genpulsos
+# End time: 20:02:05 on Nov 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria\ Electronica/Componente\ Teorico-Practico/Digital\ II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido {C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/ultrasonido.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:05 on Nov 04,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido" C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/ultrasonido.v 
+# -- Compiling module ultrasonido
+# 
+# Top level modules:
+# 	ultrasonido
+# End time: 20:02:05 on Nov 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria\ Electronica/Componente\ Teorico-Practico/Digital\ II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido {C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/divisorfrecgen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:05 on Nov 04,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido" C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/divisorfrecgen.v 
+# -- Compiling module divisorfrecgen
+# 
+# Top level modules:
+# 	divisorfrecgen
+# End time: 20:02:06 on Nov 04,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria\ Electronica/Componente\ Teorico-Practico/Digital\ II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido {C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/divisorfrecd.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:06 on Nov 04,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido" C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/divisorfrecd.v 
+# -- Compiling module divisorfrecd
+# 
+# Top level modules:
+# 	divisorfrecd
+# End time: 20:02:06 on Nov 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria\ Electronica/Componente\ Teorico-Practico/Digital\ II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido {C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/ultrasonido_TB.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:06 on Nov 04,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido" C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/ultrasonido_TB.v 
+# -- Compiling module ultrasonido_TB
+# 
+# Top level modules:
+# 	ultrasonido_TB
+# End time: 20:02:07 on Nov 04,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  ultrasonido_TB
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" ultrasonido_TB 
+# Start time: 20:02:07 on Nov 04,2020
+# Loading work.ultrasonido_TB
+# Loading work.ultrasonido
+# Loading work.divisorfrecgen
+# Loading work.divisorfrecd
+# Loading work.genpulsos
+# Loading work.contador
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Error: (vsim-PLI-3536) $dumpvars() : The level argument (-1) must not be negative.    : C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/ultrasonido_TB.v(57)
+#    Time: 0 ps  Iteration: 0  Instance: /ultrasonido_TB
+# ** Note: $finish    : C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/ultrasonido_TB.v(58)
+#    Time: 4 ms  Iteration: 0  Instance: /ultrasonido_TB
+# 1
+# Break in NamedBeginStat TEST_CASE at C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/ultrasonido_TB.v line 58
+# End time: 20:04:29 on Nov 04,2020, Elapsed time: 0:02:22
+# Errors: 1, Warnings: 0

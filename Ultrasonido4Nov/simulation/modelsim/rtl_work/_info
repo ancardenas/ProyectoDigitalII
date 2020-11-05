@@ -1,0 +1,156 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/simulation/modelsim
+vcontador
+!s110 1604538124
+!i10b 1
+!s100 74QlgA=boSR9Da7bm<SLV2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I]F1TBzSZCl^cPe8<MWP<C1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1604446708
+8C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/contador.v
+FC:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/contador.v
+!i122 0
+L0 2 53
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1604538124.000000
+!s107 C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/contador.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido|C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/contador.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido}
+Z7 tCvgOpt 0
+vdivisorfrecd
+Z8 !s110 1604538126
+!i10b 1
+!s100 =ET;a83iTKn>?NMFDET?_3
+R1
+Il71ZRhI`4FAc@^:o@TkE?3
+R2
+R0
+w1604538032
+8C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/divisorfrecd.v
+FC:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/divisorfrecd.v
+!i122 4
+L0 2 22
+R4
+r1
+!s85 0
+31
+Z9 !s108 1604538126.000000
+!s107 C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/divisorfrecd.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido|C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/divisorfrecd.v|
+!i113 1
+R5
+R6
+R7
+vdivisorfrecgen
+R8
+!i10b 1
+!s100 0l1ojehBCTTOPbLWS;4ad3
+R1
+ICAUZ3:a0j7]8PCXn_U8Sm1
+R2
+R0
+w1604537599
+8C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/divisorfrecgen.v
+FC:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/divisorfrecgen.v
+!i122 3
+L0 3 21
+R4
+r1
+!s85 0
+31
+Z10 !s108 1604538125.000000
+!s107 C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/divisorfrecgen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido|C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/divisorfrecgen.v|
+!i113 1
+R5
+R6
+R7
+vgenpulsos
+Z11 !s110 1604538125
+!i10b 1
+!s100 ?2eKo04TO]X2dS>Ek1oc22
+R1
+IV[N:M[F9OmV?SSB9>T;z^3
+R2
+R0
+R3
+8C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/genpulsos.v
+FC:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/genpulsos.v
+!i122 1
+L0 2 38
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/genpulsos.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido|C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/genpulsos.v|
+!i113 1
+R5
+R6
+R7
+vultrasonido
+R11
+!i10b 1
+!s100 ^_b2;zAE_H:XFIDB05bL@2
+R1
+IcGF?Y5?3_[>GdJC@@l[3i3
+R2
+R0
+w1604452508
+8C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/ultrasonido.v
+FC:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/ultrasonido.v
+!i122 2
+L0 2 23
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/ultrasonido.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido|C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/ultrasonido.v|
+!i113 1
+R5
+R6
+R7
+vultrasonido_TB
+!s110 1604538127
+!i10b 1
+!s100 E7Gj0lWa@^j`=N?ZA8k=31
+R1
+IdCi[keM9PAKaaTe;V@b7>3
+R2
+R0
+w1604537583
+8C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/ultrasonido_TB.v
+FC:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/ultrasonido_TB.v
+!i122 5
+L0 3 59
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/ultrasonido_TB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido|C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/Ultrasonido4Nov/ModuloUltrasonido/ultrasonido_TB.v|
+!i113 1
+R5
+R6
+R7
+nultrasonido_@t@b

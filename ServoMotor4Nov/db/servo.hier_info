@@ -1,0 +1,80 @@
+|servo
+clk => clk.IN2
+dutty[0] => dutty[0].IN1
+dutty[1] => dutty[1].IN1
+dutty[2] => dutty[2].IN1
+dutty[3] => dutty[3].IN1
+dutty[4] => dutty[4].IN1
+dutty[5] => dutty[5].IN1
+dutty[6] => dutty[6].IN1
+dutty[7] => dutty[7].IN1
+CLKOUT << CLKOUT.DB_MAX_OUTPUT_PORT_TYPE
+CLKOUT2 << CLKOUT2.DB_MAX_OUTPUT_PORT_TYPE
+PWM << generadorpmw:generadorpmw0.PMW
+
+
+|servo|divisorfrec:divisorfrec0
+clk => CLKOUT~reg0.CLK
+clk => count_225[0].CLK
+clk => count_225[1].CLK
+clk => count_225[2].CLK
+clk => count_225[3].CLK
+clk => count_225[4].CLK
+clk => count_225[5].CLK
+clk => count_225[6].CLK
+clk => count_225[7].CLK
+clk => count_225[8].CLK
+CLKOUT <= CLKOUT~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|servo|divisorfrec1:divisorfrec10
+clk => CLKOUT2~reg0.CLK
+clk => count_138[0].CLK
+clk => count_138[1].CLK
+clk => count_138[2].CLK
+clk => count_138[3].CLK
+clk => count_138[4].CLK
+clk => count_138[5].CLK
+clk => count_138[6].CLK
+clk => count_138[7].CLK
+clk => count_138[8].CLK
+CLKOUT2 <= CLKOUT2~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|servo|divisorfrecgen:divisorfrecgen0
+CLKOUT => CLKOUT1~reg0.CLK
+CLKOUT => count_10[0].CLK
+CLKOUT => count_10[1].CLK
+CLKOUT => count_10[2].CLK
+CLKOUT => count_10[3].CLK
+CLKOUT => count_10[4].CLK
+CLKOUT => count_10[5].CLK
+CLKOUT => count_10[6].CLK
+CLKOUT => count_10[7].CLK
+CLKOUT1 <= CLKOUT1~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|servo|generadorpmw:generadorpmw0
+CLKOUT2 => counter[0].CLK
+CLKOUT2 => counter[1].CLK
+CLKOUT2 => counter[2].CLK
+CLKOUT2 => counter[3].CLK
+CLKOUT2 => counter[4].CLK
+CLKOUT2 => counter[5].CLK
+CLKOUT2 => counter[6].CLK
+CLKOUT2 => counter[7].CLK
+CLKOUT2 => counter[8].CLK
+CLKOUT2 => counter[9].CLK
+CLKOUT2 => counter[10].CLK
+CLKOUT2 => counter[11].CLK
+dutty[0] => LessThan1.IN12
+dutty[1] => LessThan1.IN11
+dutty[2] => Add1.IN12
+dutty[3] => Add1.IN11
+dutty[4] => Add1.IN10
+dutty[5] => Add1.IN9
+dutty[6] => Add1.IN8
+dutty[7] => Add1.IN7
+PMW <= LessThan1.DB_MAX_OUTPUT_PORT_TYPE
+
+

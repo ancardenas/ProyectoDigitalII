@@ -1,0 +1,72 @@
+Sun Nov 01 12:27:38 EST 2020
+Trace back: window ".srcobjdlg" was deleted before its visibility changed
+    while executing
+"tkwait visibility $w"
+    (procedure "tk_dialog" line 119)
+    invoked from within
+"tk_dialog .srcobjdlg "Warning!" "$msg" "" 1 Overwrite Reload Ignore"
+    (object "::.main_pane.source.interior.cs.body.srcobj" method "::vsimwidgets::Srcobj::CheckModification" body line 18)
+    invoked from within
+"::.main_pane.source.interior.cs.body.srcobj CheckModification"
+    (in namespace inscope "::vsimwidgets::Srcobj" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Srcobj {::.main_pane.source.interior.cs.body.srcobj CheckModification}"
+    (command bound to event)
+  <2:C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/tk8.6/bgerror.tcl:106: ::tkerror {window ".srcobjdlg" was deleted before its visibility changed}
+  <1:eval:1: ::tk::dialog::error::bgerror {window ".srcobjdlg" was deleted before its visibility changed}
+Sun Nov 01 12:27:44 EST 2020
+Trace back: window ".srcobjdlg" was deleted before its visibility changed
+    while executing
+"tk_dialog .srcobjdlg "Warning!" "$msg" "" 1 Overwrite Reload Ignore"
+    (object "::.main_pane.source.interior.cs.body.srcobj" method "::vsimwidgets::Srcobj::CheckModification" body line 18)
+    invoked from within
+"::.main_pane.source.interior.cs.body.srcobj CheckModification"
+    (in namespace inscope "::vsimwidgets::Srcobj" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Srcobj {::.main_pane.source.interior.cs.body.srcobj CheckModification}"
+    (command bound to event)
+  <2:C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/tk8.6/bgerror.tcl:106: ::tkerror {window ".srcobjdlg" was deleted before its visibility changed}
+  <1:C:/mtitcl/vsim/vsiminit.tc_:523: ::tk::dialog::error::bgerror {window ".srcobjdlg" was deleted before its visibility changed}
+Sun Nov 01 16:07:02 EST 2020
+Trace back: invalid command name ".main_pane.dataflow.interior.cs.body.pw.wf.top.tree.tree2"
+    while executing
+".main_pane.dataflow.interior.cs.body.pw.wf.top.tree.tree2 update"
+    ("after" script)
+  <2:C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/tk8.6/bgerror.tcl:106: ::tkerror {invalid command name ".main_pane.dataflow.interior.cs.body.pw.wf.top.tree.tree2"}
+  <1:eval:1: ::tk::dialog::error::bgerror {invalid command name ".main_pane.dataflow.interior.cs.body.pw.wf.top.tree.tree2"}
+Sun Nov 01 16:07:03 EST 2020
+Trace back: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+    while executing
+"::.main_pane.dataflow.interior.cs.body.pw.df.c RegenerateLayout -placement"
+    ("after" script)
+  <2:C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/tk8.6/bgerror.tcl:106: ::tkerror {invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"}
+  <1:C:/mtitcl/vsim/vsiminit.tc_:523: ::tk::dialog::error::bgerror {invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"}
+Sun Nov 01 16:07:04 EST 2020
+Trace back: can't read "vsimPriv(.main_pane.dataflow.interior.cs.body.pw.wf.top:grid)": no such element in array
+    while executing
+"set grid $vsimPriv($winname:grid)"
+    (procedure "Wave::UpdateValueButtons" line 6)
+    invoked from within
+"Wave::UpdateValueButtons $winname $cursor_num $cursor_time $cursor_delta"
+    (procedure "Wave::PositionCursor" line 12)
+    invoked from within
+"Wave::PositionCursor $winname 0 $Now $vsimPriv(Iteration)"
+    (procedure "Wave::UpdateEndOfTimeCursor" line 6)
+    invoked from within
+"Wave::UpdateEndOfTimeCursor .main_pane.dataflow.interior.cs.body.pw.wf.top"
+    ("after" script)
+  <2:C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/tk8.6/bgerror.tcl:106: ::tkerror {can't read "vsimPriv(.main_pane.dataflow.interior.cs.body.pw.wf.top:grid)": no such element in array}
+  <1:C:/mtitcl/vsim/vsiminit.tc_:523: ::tk::dialog::error::bgerror {can't read "vsimPriv(.main_pane.dataflow.interior.cs.body.pw.wf.top:grid)": no such element in array}
+Tue Nov 03 19:10:47 EST 2020
+Trace back: window ".srcobjdlg" was deleted before its visibility changed
+    while executing
+"tk_dialog .srcobjdlg "Warning!" "$msg" "" 1 Overwrite Reload Ignore"
+    (object "::.main_pane.source.interior.cs.body.srcobj" method "::vsimwidgets::Srcobj::CheckModification" body line 18)
+    invoked from within
+"::.main_pane.source.interior.cs.body.srcobj CheckModification"
+    (in namespace inscope "::vsimwidgets::Srcobj" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Srcobj {::.main_pane.source.interior.cs.body.srcobj CheckModification}"
+    (command bound to event)
+  <2:C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/tk8.6/bgerror.tcl:106: ::tkerror {window ".srcobjdlg" was deleted before its visibility changed}
+  <1:eval:1: ::tk::dialog::error::bgerror {window ".srcobjdlg" was deleted before its visibility changed}

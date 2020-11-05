@@ -1,0 +1,101 @@
+|ultrasonido
+d[0] << contador:contador0.d
+d[1] << contador:contador0.d
+d[2] << contador:contador0.d
+d[3] << contador:contador0.d
+d[4] << contador:contador0.d
+d[5] << contador:contador0.d
+d[6] << contador:contador0.d
+d[7] << contador:contador0.d
+trigg << genpulsos:genpulsos0.trigg
+DONE << contador:contador0.DONE
+ENABLE => ENABLE.IN1
+ECHO => ECHO.IN1
+clk => clk.IN2
+reset => reset.IN2
+
+
+|ultrasonido|divisorfrecgen:divisorfrecgen0
+clk => CLKOUT1~reg0.CLK
+clk => count_225[0].CLK
+clk => count_225[1].CLK
+clk => count_225[2].CLK
+clk => count_225[3].CLK
+clk => count_225[4].CLK
+clk => count_225[5].CLK
+clk => count_225[6].CLK
+clk => count_225[7].CLK
+clk => count_225[8].CLK
+CLKOUT1 <= CLKOUT1~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ultrasonido|divisorfrecd:divisorfrecd0
+clk => CLKOUTD~reg0.CLK
+clk => count_1462[0].CLK
+clk => count_1462[1].CLK
+clk => count_1462[2].CLK
+clk => count_1462[3].CLK
+clk => count_1462[4].CLK
+clk => count_1462[5].CLK
+clk => count_1462[6].CLK
+clk => count_1462[7].CLK
+clk => count_1462[8].CLK
+clk => count_1462[9].CLK
+clk => count_1462[10].CLK
+clk => count_1462[11].CLK
+CLKOUTD <= CLKOUTD~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ultrasonido|genpulsos:genpulsos0
+pulse => Doit.OUTPUTSELECT
+pulse => always0.IN1
+CLKOUT1 => NoDoit.CLK
+CLKOUT1 => Doit.CLK
+reset => Doit.OUTPUTSELECT
+reset => NoDoit.OUTPUTSELECT
+trigg <= trigg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ultrasonido|contador:contador0
+d[0] <= count0[0].DB_MAX_OUTPUT_PORT_TYPE
+d[1] <= count0[1].DB_MAX_OUTPUT_PORT_TYPE
+d[2] <= count0[2].DB_MAX_OUTPUT_PORT_TYPE
+d[3] <= count0[3].DB_MAX_OUTPUT_PORT_TYPE
+d[4] <= count0[4].DB_MAX_OUTPUT_PORT_TYPE
+d[5] <= count0[5].DB_MAX_OUTPUT_PORT_TYPE
+d[6] <= count0[6].DB_MAX_OUTPUT_PORT_TYPE
+d[7] <= count0[7].DB_MAX_OUTPUT_PORT_TYPE
+pulse <= pulse~reg0.DB_MAX_OUTPUT_PORT_TYPE
+DONE <= DONE~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ECHO => count0.OUTPUTSELECT
+ECHO => count0.OUTPUTSELECT
+ECHO => count0.OUTPUTSELECT
+ECHO => count0.OUTPUTSELECT
+ECHO => count0.OUTPUTSELECT
+ECHO => count0.OUTPUTSELECT
+ECHO => count0.OUTPUTSELECT
+ECHO => count0.OUTPUTSELECT
+ECHO => always0.IN1
+ENABLE => pulse.OUTPUTSELECT
+CLKOUTD => pulse~reg0.CLK
+CLKOUTD => DONE~reg0.CLK
+CLKOUTD => count0[0].CLK
+CLKOUTD => count0[1].CLK
+CLKOUTD => count0[2].CLK
+CLKOUTD => count0[3].CLK
+CLKOUTD => count0[4].CLK
+CLKOUTD => count0[5].CLK
+CLKOUTD => count0[6].CLK
+CLKOUTD => count0[7].CLK
+reset => count0.OUTPUTSELECT
+reset => count0.OUTPUTSELECT
+reset => count0.OUTPUTSELECT
+reset => count0.OUTPUTSELECT
+reset => count0.OUTPUTSELECT
+reset => count0.OUTPUTSELECT
+reset => count0.OUTPUTSELECT
+reset => count0.OUTPUTSELECT
+reset => DONE.OUTPUTSELECT
+reset => pulse.OUTPUTSELECT
+
+
