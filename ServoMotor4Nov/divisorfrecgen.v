@@ -1,22 +1,22 @@
 
-module	divisorfrecgen	(input  CLKOUT, output	reg	CLKOUT1	); // 100 kHz to 50Hz
+module	divisorfrecgen	(input clk , output	reg	CLKOUT3	); // 50 MHz to 225KHz
 
-  parameter top=8'b00001010;// top=100kHz/5kHz=20
-  reg [7:0] count_10;
+  parameter top=9'b100010101;// top=50MHz/94.736kHz=527,78
+  reg [8:0] count_278;
 	//
 	initial
 	begin
-		CLKOUT1=1'b0;
-		count_10=0;
+		CLKOUT3=1'b0;
+		count_278=0;
 	end
 	//
-	always @(posedge CLKOUT)
+	always @(posedge clk)
 	begin
-		count_10 <= count_10 + 1;
-      if(count_10 == top)
+		count_278 <= count_278 + 1;
+      if(count_278 == top)
 		begin
-			count_10<=0;
-			CLKOUT1 <= ~CLKOUT1;
+			count_278<=0;
+			CLKOUT3 <= ~CLKOUT3;
 		end
 	end
 endmodule

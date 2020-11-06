@@ -4,27 +4,15 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "CLKOUT",
+					"name" : "CLKOUT3",
 					"strict" : false
 				},
 				{
-					"name" : "CLKOUT2",
+					"name" : "PWM3",
 					"strict" : false
 				},
 				{
-					"name" : "PWM",
-					"strict" : false
-				},
-				{
-					"name" : "dutty[7]",
-					"strict" : false
-				},
-				{
-					"name" : "dutty[6]",
-					"strict" : false
-				},
-				{
-					"name" : "dutty[5]",
+					"name" : "clk",
 					"strict" : false
 				},
 				{
@@ -32,15 +20,15 @@
 					"strict" : false
 				},
 				{
-					"name" : "dutty[3]",
+					"name" : "dutty[5]",
 					"strict" : false
 				},
 				{
-					"name" : "dutty[2]",
+					"name" : "dutty[6]",
 					"strict" : false
 				},
 				{
-					"name" : "dutty[1]",
+					"name" : "dutty[7]",
 					"strict" : false
 				},
 				{
@@ -48,7 +36,15 @@
 					"strict" : false
 				},
 				{
-					"name" : "clk",
+					"name" : "dutty[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dutty[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dutty[2]",
 					"strict" : false
 				}
 			]

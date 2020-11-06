@@ -1,19 +1,19 @@
 
 module	generadorpmw(
-			input CLKOUT2,
-			input [7:0]dutty,
-			output PMW
+			input CLKOUT1,
+			input [7:0]grados,
+			output PMW1
 			
 			);
 
 
 reg [11:0] counter = 0;
 
-always@(posedge CLKOUT2) //Cada 0.2ms
+always@(posedge CLKOUT1) 
  begin
       if(counter<3600) counter<= counter +1;
       else counter <= 0;
 end
-assign PMW = (counter<(dutty+8'b10110100)) ? 1:0;
+assign PMW1 = (counter<(grados+8'b10110100)) ? 1:0;
 
 endmodule

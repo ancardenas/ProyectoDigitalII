@@ -6,10 +6,8 @@ vlib rtl_work
 vmap work rtl_work
 
 vlog -vlog01compat -work work +incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria\ Electronica/Componente\ Teorico-Practico/Digital\ II/Laboratorio/ServoMotor4Nov {C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/ServoMotor4Nov/servo.v}
-vlog -vlog01compat -work work +incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria\ Electronica/Componente\ Teorico-Practico/Digital\ II/Laboratorio/ServoMotor4Nov {C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/ServoMotor4Nov/divisorfrec.v}
 vlog -vlog01compat -work work +incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria\ Electronica/Componente\ Teorico-Practico/Digital\ II/Laboratorio/ServoMotor4Nov {C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/ServoMotor4Nov/divisorfrecgen.v}
-vlog -vlog01compat -work work +incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria\ Electronica/Componente\ Teorico-Practico/Digital\ II/Laboratorio/ServoMotor4Nov {C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/ServoMotor4Nov/generadorpwm.v}
-vlog -vlog01compat -work work +incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria\ Electronica/Componente\ Teorico-Practico/Digital\ II/Laboratorio/ServoMotor4Nov {C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/ServoMotor4Nov/divisorfrec1.v}
+vlog -vlog01compat -work work +incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria\ Electronica/Componente\ Teorico-Practico/Digital\ II/Laboratorio/ServoMotor4Nov {C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/ServoMotor4Nov/generadorpwm3.v}
 
 vlog -vlog01compat -work work +incdir+C:/Users/juanj/OneDrive/Desktop/Ingenieria\ Electronica/Componente\ Teorico-Practico/Digital\ II/Laboratorio/ServoMotor4Nov {C:/Users/juanj/OneDrive/Desktop/Ingenieria Electronica/Componente Teorico-Practico/Digital II/Laboratorio/ServoMotor4Nov/servo_TB.v}
 
